@@ -26,7 +26,7 @@
                 echo "Data yang di cari tidak ada.";
                 exit();
             }
-        ?>
+        ?> 
         <div class="row">
             <center>
                 <h1>Detail Mobil</h1>

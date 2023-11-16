@@ -28,7 +28,6 @@ function updatemobil($connect, $id, $nama_mobil, $brand_mobil, $warna_mobil, $ti
     }
 }
 
-
 if(isset($_POST['update'])){
 
     $nama_mobil = $_POST['nama_mobil'];
