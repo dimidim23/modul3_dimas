@@ -28,16 +28,16 @@ function updatemobil($connect, $id, $nama_mobil, $brand_mobil, $warna_mobil, $ti
     }
 }
 
-// Check if the form is submitted (update button is clicked)
+
 if(isset($_POST['update'])){
-    // Get data from the form
+
     $nama_mobil = $_POST['nama_mobil'];
     $brand_mobil = $_POST['brand_mobil'];
     $warna_mobil = $_POST['warna_mobil'];
     $tipe_mobil = $_POST['tipe_mobil'];
     $harga_mobil = $_POST['harga_mobil'];
 
-    // Call the update function with the provided data
+
     updatemobil($connect, $id, $nama_mobil, $brand_mobil, $warna_mobil, $tipe_mobil, $harga_mobil);
 }
 

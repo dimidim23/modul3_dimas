@@ -23,8 +23,7 @@
                 $tipe_mobil = $row['tipe_mobil'];
                 $harga_mobil = $row['harga_mobil'];
             } else {
-                // Handle the case where the data is not found
-                echo "Data not found.";
+                echo "Data yang di cari tidak ada.";
                 exit();
             }
         ?>
